@@ -3,7 +3,7 @@ var n;
 var soma = 0;
 
 while(i<10){
-    n = parseInt(prompt("Inira um número:"));
+    n = parseInt(prompt(`Insira o ${i}° número:`));
     if(n<40){
         soma += n;
     }
