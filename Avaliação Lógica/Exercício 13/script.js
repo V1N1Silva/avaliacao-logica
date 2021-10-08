@@ -1,8 +1,8 @@
-var i = 0;
+var i = 1;
 var n;
 var soma = 0;
 
-while(i<10){
+while(i<=10){
     n = parseInt(prompt(`Insira o ${i}° número:`));
     if(n<40){
         soma += n;
